@@ -22,7 +22,7 @@ public class Bank {
     }
 
     public static void main(String[] args){
-        Bank acc1 = new Bank(230,"Aashir Ghouri", 1000.00);
+        Bank acc1 = new Bank(230,"Aashir Ghouri", 1000.0);
         Bank acc2 = new Bank(130,"Hammad");
 
         acc1.display();
@@ -30,4 +30,5 @@ public class Bank {
 
     }
 }
+
 
