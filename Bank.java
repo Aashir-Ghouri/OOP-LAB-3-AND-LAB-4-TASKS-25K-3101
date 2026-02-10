@@ -3,10 +3,7 @@ public class Bank {
     int accNum;
     String accHolder;
     double accBal;
-    Bank(){
-        System.out.println("Initialized.");
-    }
-
+    
     Bank(int PaccNum, String PaccHolder){
         accNum = PaccNum;
         accHolder = PaccHolder;
@@ -33,3 +30,4 @@ public class Bank {
 
     }
 }
+
